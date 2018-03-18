@@ -3,7 +3,7 @@ Name: mytheme
 ---
 SilverStripe\View\SSViewer:
   themes:
-    - 'default-ss4-boostrap-theme'
+    - 'default-ss4-bootstrap-theme'
     - 'blog-ss4-bootstrap-theme'
     - 'homepage-s44-bootstrap-theme'
 
