@@ -3,6 +3,11 @@ Name: mytheme
 ---
 SilverStripe\View\SSViewer:
   themes:
-    - '$public'
-    - 'simple'
+    - 'default-bootstrap-ss4-theme'
+    - 'blog-ss4-bootstrap-theme'
+    - 'homepage-s44-bootstrap-theme'
+
+    # Fallback to module if required
     - '$default'
+SilverStripe\i18n\i18n:
+  default_locale: 'en_US'
