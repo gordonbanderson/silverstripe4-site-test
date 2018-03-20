@@ -2767,16 +2767,16 @@
         },
         {
             "name": "suilven/default-ss4-bootstrap-theme",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gordonbanderson/default-ss4-bootstrap-theme.git",
-                "reference": "f1047b655969b5fb0760be4342561742b8b19ca6"
+                "reference": "458a1bbf050bd9eb4232414909a215b5f3755cb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gordonbanderson/default-ss4-bootstrap-theme/zipball/f1047b655969b5fb0760be4342561742b8b19ca6",
-                "reference": "f1047b655969b5fb0760be4342561742b8b19ca6",
+                "url": "https://api.github.com/repos/gordonbanderson/default-ss4-bootstrap-theme/zipball/458a1bbf050bd9eb4232414909a215b5f3755cb0",
+                "reference": "458a1bbf050bd9eb4232414909a215b5f3755cb0",
                 "shasum": ""
             },
             "require": {
@@ -2807,7 +2807,7 @@
                 "suilven",
                 "theme"
             ],
-            "time": "2018-03-18T16:53:30+00:00"
+            "time": "2018-03-18T19:04:40+00:00"
         },
         {
             "name": "suilven/homepage",
