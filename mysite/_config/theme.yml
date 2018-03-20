@@ -5,7 +5,7 @@ SilverStripe\View\SSViewer:
   themes:
     - 'default-ss4-bootstrap-theme'
     - 'blog-ss4-bootstrap-theme'
-    - 'homepage-s44-bootstrap-theme'
+    - 'homepage-ss4-bootstrap-theme'
 
     # Fallback to module if required
     - '$default'
