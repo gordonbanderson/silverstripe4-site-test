@@ -1,6 +1,6 @@
 ---
 name: weboftalent-example-map-extensions
 ---
-Page:
-  extensions:
-    - WebOfTalent\Mappable\MapExtension
+#Page:
+ # extensions:
+ #   - WebOfTalent\Mappable\MapExtension
