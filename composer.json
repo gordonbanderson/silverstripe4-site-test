@@ -2,30 +2,41 @@
     "name": "silverstripe/installer",
     "type": "silverstripe-recipe",
     "description": "The SilverStripe Framework Installer",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:gordonbanderson/silverstripe-comments.git"
+        }
+    ],
+
     "require": {
         "php": ">=5.6.0",
         "silverstripe/recipe-plugin": "^1",
         "silverstripe/recipe-cms": "1.1.0@stable",
-        "suilven/silverstripe-configurator": "^0.1.1",
-        "silverstripe/googlesitemaps": "dev-master",
+        "silverstripe/googlesitemaps": "^2.0",
         "silverstripe/blog": "^3.0",
         "silverstripe/widgets": "^2.0",
         "tractorcow/silverstripe-opengraph": "^4.0",
-        "alek13/slack": "^1.10",
+        "alek13/slack": "2.x-dev",
         "colymba/gridfield-bulk-editing-tools": "3.0.0-beta4",
         "jonom/focuspoint": "^3.0",
         "benmanu/silverstripe-simple-styleguide": "^2.0",
-        "weboftalent/twitter-tools": "^2.0",
-        "weboftalent/silverstripe-shortcode-gist": "^2.0",
+        "weboftalent/twitter-tools": "2.0.2",
+        "weboftalent/silverstripe-shortcode-gist": "dev-master",
         "weboftalent/gridrows": "^2.0",
         "suilven/homepage": "^1.0",
         "suilven/homepage-ss4-bootstrap-theme": "^1.0",
         "suilven/blog-ss4-bootstrap-theme": "^1.0",
-        "suilven/default-ss4-bootstrap-theme": "^1.0"
+        "suilven/default-ss4-bootstrap-theme": "^1.0",
+        "ezyang/htmlpurifier": "^4.10",
+        "symbiote/silverstripe-queuedjobs": "dev-master",
+        "silverstripe/comments": "dev-confighack",
+        "suilven/silverstripe-notifier": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7",
-        "squizlabs/php_codesniffer": "^3.2"
+        "squizlabs/php_codesniffer": "^3.2",
+        "suilven/silverstripe-configurator": "dev-master"
     },
     "extra": {
         "branch-alias": {
