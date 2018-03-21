@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a932a4a136e76d0a70dc6d3773cacdfc",
+    "content-hash": "f406853a3edb63e800aa408323a388ed",
     "packages": [
         {
             "name": "alek13/slack",
@@ -2764,6 +2764,59 @@
                 "theme"
             ],
             "time": "2018-03-18T16:49:48+00:00"
+        },
+        {
+            "name": "suilven/comments-chat-notifications",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gordonbanderson/comments-chat-notifier.git",
+                "reference": "e4a0a163d79b76f2b23718eb7f994d1646af8e21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gordonbanderson/comments-chat-notifier/zipball/e4a0a163d79b76f2b23718eb7f994d1646af8e21",
+                "reference": "e4a0a163d79b76f2b23718eb7f994d1646af8e21",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~5.6|~7.0",
+                "suilven/silverstripe-notifier": "~1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=5.4.3",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Suilven\\CommentsChatNotifications\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gordon Anderson",
+                    "email": "gordon.b.anderson@gmail.com",
+                    "homepage": "https://github.com/gordonbanderson",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Send comment notifications to Slack for now",
+            "homepage": "https://github.com/suilven/comments-chat-notifications",
+            "keywords": [
+                "comments-chat-notifications",
+                "suilven"
+            ],
+            "time": "2018-03-20T19:07:20+00:00"
         },
         {
             "name": "suilven/default-ss4-bootstrap-theme",
