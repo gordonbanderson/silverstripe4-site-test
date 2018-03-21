@@ -8,7 +8,6 @@
             "url": "git@github.com:gordonbanderson/silverstripe-comments.git"
         }
     ],
-
     "require": {
         "php": ">=5.6.0",
         "silverstripe/recipe-plugin": "^1",
@@ -31,7 +30,8 @@
         "ezyang/htmlpurifier": "^4.10",
         "silverstripe/comments": "dev-confighack",
         "suilven/silverstripe-notifier": "^1.0",
-        "suilven/comments-chat-notifications": "^1.0"
+        "suilven/comments-chat-notifications": "^1.0",
+        "symbiote/silverstripe-queuedjobs": "^4.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7",

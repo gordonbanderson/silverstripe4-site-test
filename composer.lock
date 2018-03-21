@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f406853a3edb63e800aa408323a388ed",
+    "content-hash": "4938cdfccc94e6bc910e12ce6e6289a2",
     "packages": [
         {
             "name": "alek13/slack",
@@ -2729,16 +2729,16 @@
         },
         {
             "name": "suilven/blog-ss4-bootstrap-theme",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gordonbanderson/blog-ss4-bootstrap-theme.git",
-                "reference": "51a00b6ba45c931d5f805bb4ca0f233c30904edd"
+                "reference": "16a13f94566a47a15daef311eef5839e499f652b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gordonbanderson/blog-ss4-bootstrap-theme/zipball/51a00b6ba45c931d5f805bb4ca0f233c30904edd",
-                "reference": "51a00b6ba45c931d5f805bb4ca0f233c30904edd",
+                "url": "https://api.github.com/repos/gordonbanderson/blog-ss4-bootstrap-theme/zipball/16a13f94566a47a15daef311eef5839e499f652b",
+                "reference": "16a13f94566a47a15daef311eef5839e499f652b",
                 "shasum": ""
             },
             "require": {
@@ -2763,7 +2763,7 @@
                 "suilven",
                 "theme"
             ],
-            "time": "2018-03-18T16:49:48+00:00"
+            "time": "2018-03-19T13:52:41+00:00"
         },
         {
             "name": "suilven/comments-chat-notifications",
@@ -2820,16 +2820,16 @@
         },
         {
             "name": "suilven/default-ss4-bootstrap-theme",
-            "version": "1.0.2",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gordonbanderson/default-ss4-bootstrap-theme.git",
-                "reference": "458a1bbf050bd9eb4232414909a215b5f3755cb0"
+                "reference": "dca7dff724fd64645b0834330356ae012f9d5b13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gordonbanderson/default-ss4-bootstrap-theme/zipball/458a1bbf050bd9eb4232414909a215b5f3755cb0",
-                "reference": "458a1bbf050bd9eb4232414909a215b5f3755cb0",
+                "url": "https://api.github.com/repos/gordonbanderson/default-ss4-bootstrap-theme/zipball/dca7dff724fd64645b0834330356ae012f9d5b13",
+                "reference": "dca7dff724fd64645b0834330356ae012f9d5b13",
                 "shasum": ""
             },
             "require": {
@@ -2860,7 +2860,7 @@
                 "suilven",
                 "theme"
             ],
-            "time": "2018-03-18T19:04:40+00:00"
+            "time": "2018-03-19T13:47:35+00:00"
         },
         {
             "name": "suilven/homepage",
@@ -2905,16 +2905,16 @@
         },
         {
             "name": "suilven/homepage-ss4-bootstrap-theme",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gordonbanderson/homepage-ss4-bootstrap-theme.git",
-                "reference": "496c9a9aace288529f56c3b265fb6e07505d2f5a"
+                "reference": "8ee84c1111387df8ef0893e95038eca55ef04295"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gordonbanderson/homepage-ss4-bootstrap-theme/zipball/496c9a9aace288529f56c3b265fb6e07505d2f5a",
-                "reference": "496c9a9aace288529f56c3b265fb6e07505d2f5a",
+                "url": "https://api.github.com/repos/gordonbanderson/homepage-ss4-bootstrap-theme/zipball/8ee84c1111387df8ef0893e95038eca55ef04295",
+                "reference": "8ee84c1111387df8ef0893e95038eca55ef04295",
                 "shasum": ""
             },
             "require": {
@@ -2939,7 +2939,7 @@
                 "suilven",
                 "theme"
             ],
-            "time": "2018-03-18T16:51:28+00:00"
+            "time": "2018-03-19T19:26:15+00:00"
         },
         {
             "name": "suilven/silverstripe-notifier",
@@ -3664,16 +3664,16 @@
         },
         {
             "name": "tractorcow/silverstripe-opengraph",
-            "version": "4.0.0",
+            "version": "4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tractorcow/silverstripe-opengraph.git",
-                "reference": "8f0c9e0aa296864eda4ac06cc112f7644a8fc633"
+                "reference": "b971bff0b582cde13c347ce048be938ed7f28cbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tractorcow/silverstripe-opengraph/zipball/8f0c9e0aa296864eda4ac06cc112f7644a8fc633",
-                "reference": "8f0c9e0aa296864eda4ac06cc112f7644a8fc633",
+                "url": "https://api.github.com/repos/tractorcow/silverstripe-opengraph/zipball/b971bff0b582cde13c347ce048be938ed7f28cbe",
+                "reference": "b971bff0b582cde13c347ce048be938ed7f28cbe",
                 "shasum": ""
             },
             "require": {
@@ -3684,7 +3684,7 @@
                 "phpunit/phpunit": "^5.7",
                 "silverstripe/recipe-cms": "^1.0"
             },
-            "type": "silverstripe-module",
+            "type": "silverstripe-vendormodule",
             "extra": {
                 "installer-name": "opengraph",
                 "branch-alias": {
@@ -3716,7 +3716,7 @@
                 "opengraph",
                 "silverstripe"
             ],
-            "time": "2018-02-28T01:15:46+00:00"
+            "time": "2018-03-08T20:15:37+00:00"
         },
         {
             "name": "weboftalent/gridrows",
@@ -3768,12 +3768,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gordonbanderson/weboftalent-shortcode-gist.git",
-                "reference": "3391323f868a8ffa7cb1f6e9af0c85b6d6c89e58"
+                "reference": "bbac4b26fe5c0fce8ecfb07f87eeb0a215f3632b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gordonbanderson/weboftalent-shortcode-gist/zipball/3391323f868a8ffa7cb1f6e9af0c85b6d6c89e58",
-                "reference": "3391323f868a8ffa7cb1f6e9af0c85b6d6c89e58",
+                "url": "https://api.github.com/repos/gordonbanderson/weboftalent-shortcode-gist/zipball/bbac4b26fe5c0fce8ecfb07f87eeb0a215f3632b",
+                "reference": "bbac4b26fe5c0fce8ecfb07f87eeb0a215f3632b",
                 "shasum": ""
             },
             "require": {
@@ -3802,7 +3802,7 @@
                 "shortcode",
                 "silverstripe"
             ],
-            "time": "2018-03-18T16:02:42+00:00"
+            "time": "2018-03-19T17:20:30+00:00"
         },
         {
             "name": "weboftalent/twitter-tools",
@@ -5171,12 +5171,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gordonbanderson/silverstripe-configurator.git",
-                "reference": "9613482f6e5c759d17f6ac101215d7df58417b1a"
+                "reference": "a8e1f16f3f359f90d878c2fb938379fb433367cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gordonbanderson/silverstripe-configurator/zipball/9613482f6e5c759d17f6ac101215d7df58417b1a",
-                "reference": "9613482f6e5c759d17f6ac101215d7df58417b1a",
+                "url": "https://api.github.com/repos/gordonbanderson/silverstripe-configurator/zipball/a8e1f16f3f359f90d878c2fb938379fb433367cd",
+                "reference": "a8e1f16f3f359f90d878c2fb938379fb433367cd",
                 "shasum": ""
             },
             "require-dev": {
@@ -5199,7 +5199,7 @@
                 }
             ],
             "description": "Install one of several standard config files for a new development site",
-            "time": "2018-03-17T17:50:50+00:00"
+            "time": "2018-03-20T15:19:23+00:00"
         },
         {
             "name": "webmozart/assert",
