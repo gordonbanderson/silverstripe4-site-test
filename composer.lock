@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e4f6126b123fd10afb96a90dec7e988",
+    "content-hash": "a932a4a136e76d0a70dc6d3773cacdfc",
     "packages": [
         {
             "name": "alek13/slack",
@@ -2981,16 +2981,16 @@
         },
         {
             "name": "symbiote/silverstripe-queuedjobs",
-            "version": "dev-master",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symbiote/silverstripe-queuedjobs.git",
-                "reference": "87f38d0c3aecc17eb321e2bddac8c95e807d5d51"
+                "reference": "216d7bf2caabd6e0ab718931f1b612f55bafe3a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symbiote/silverstripe-queuedjobs/zipball/87f38d0c3aecc17eb321e2bddac8c95e807d5d51",
-                "reference": "87f38d0c3aecc17eb321e2bddac8c95e807d5d51",
+                "url": "https://api.github.com/repos/symbiote/silverstripe-queuedjobs/zipball/216d7bf2caabd6e0ab718931f1b612f55bafe3a5",
+                "reference": "216d7bf2caabd6e0ab718931f1b612f55bafe3a5",
                 "shasum": ""
             },
             "require": {
@@ -3006,11 +3006,6 @@
                 "squizlabs/php_codesniffer": "^3.0"
             },
             "type": "silverstripe-vendormodule",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Symbiote\\QueuedJobs\\": "src/",
@@ -3036,7 +3031,7 @@
                 "jobs",
                 "silverstripe"
             ],
-            "time": "2018-03-17T07:06:20+00:00"
+            "time": "2018-02-27T22:32:00+00:00"
         },
         {
             "name": "symfony/cache",
@@ -5210,7 +5205,6 @@
         "silverstripe/recipe-cms": 0,
         "alek13/slack": 20,
         "weboftalent/silverstripe-shortcode-gist": 20,
-        "symbiote/silverstripe-queuedjobs": 20,
         "silverstripe/comments": 20,
         "suilven/silverstripe-configurator": 20
     },

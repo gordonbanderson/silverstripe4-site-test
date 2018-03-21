@@ -29,7 +29,6 @@
         "suilven/blog-ss4-bootstrap-theme": "^1.0",
         "suilven/default-ss4-bootstrap-theme": "^1.0",
         "ezyang/htmlpurifier": "^4.10",
-        "symbiote/silverstripe-queuedjobs": "dev-master",
         "silverstripe/comments": "dev-confighack",
         "suilven/silverstripe-notifier": "^1.0"
     },
