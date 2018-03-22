@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4938cdfccc94e6bc910e12ce6e6289a2",
+    "content-hash": "64befa55b89e153bfb006e47556b7ec9",
     "packages": [
         {
             "name": "alek13/slack",
@@ -97,6 +97,55 @@
             "time": "2015-12-06T21:13:18+00:00"
         },
         {
+            "name": "axllent/simplehtmldom",
+            "version": "1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/axllent/simplehtmldom.git",
+                "reference": "42d10e5b571691887f9ea190f8451bdef40e83ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/axllent/simplehtmldom/zipball/42d10e5b571691887f9ea190f8451bdef40e83ba",
+                "reference": "42d10e5b571691887f9ea190f8451bdef40e83ba",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SimpleHtmlDom": "src/"
+                },
+                "files": [
+                    "src/simple_html_dom.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The MIT License (MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "S.C. Chen",
+                    "email": "me578022@gmail.com"
+                },
+                {
+                    "name": "Ralph Slooten",
+                    "email": "axllent@gmail.com"
+                }
+            ],
+            "description": "PHP Simple HTML DOM Parser with namespace & bug fixes",
+            "homepage": "http://simplehtmldom.sourceforge.net/",
+            "keywords": [
+                "Simple",
+                "dom",
+                "html"
+            ],
+            "time": "2016-11-04T02:18:38+00:00"
+        },
+        {
             "name": "benmanu/silverstripe-simple-styleguide",
             "version": "2.0.3",
             "source": {
@@ -143,6 +192,66 @@
                 "styleguide"
             ],
             "time": "2018-02-03T03:31:45+00:00"
+        },
+        {
+            "name": "cebe/markdown",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cebe/markdown.git",
+                "reference": "25b28bae8a6f185b5030673af77b32e1163d5c6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/25b28bae8a6f185b5030673af77b32e1163d5c6e",
+                "reference": "25b28bae8a6f185b5030673af77b32e1163d5c6e",
+                "shasum": ""
+            },
+            "require": {
+                "lib-pcre": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "cebe/indent": "*",
+                "facebook/xhprof": "*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "bin": [
+                "bin/markdown"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "cebe\\markdown\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Creator"
+                }
+            ],
+            "description": "A super fast, highly extensible markdown parser for PHP",
+            "homepage": "https://github.com/cebe/markdown#readme",
+            "keywords": [
+                "extensible",
+                "fast",
+                "gfm",
+                "markdown",
+                "markdown-extra"
+            ],
+            "time": "2017-07-16T21:13:23+00:00"
         },
         {
             "name": "colymba/gridfield-bulk-editing-tools",
@@ -1627,6 +1736,54 @@
             "time": "2018-03-13T01:21:14+00:00"
         },
         {
+            "name": "silverstripe/auditor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-auditor.git",
+                "reference": "0b9650f333ec781f9c1bfb92203ccd5f06b3cff9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-auditor/zipball/0b9650f333ec781f9c1bfb92203ccd5f06b3cff9",
+                "reference": "0b9650f333ec781f9c1bfb92203ccd5f06b3cff9",
+                "shasum": ""
+            },
+            "require": {
+                "monolog/monolog": "~1.11",
+                "psr/log": "~1.0",
+                "silverstripe/framework": "^4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7",
+                "silverstripe/versioned": "^1.0",
+                "squizlabs/php_codesniffer": "^3.0",
+                "tractorcow/silverstripe-proxy-db": "~0.1"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SilverStripe\\Auditor\\": "code/",
+                    "SilverStripe\\Auditor\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Adds security audit trail to SilverStripe.",
+            "keywords": [
+                "Audit",
+                "silverstripe"
+            ],
+            "time": "2018-03-14T23:06:21+00:00"
+        },
+        {
             "name": "silverstripe/blog",
             "version": "3.0.0",
             "source": {
@@ -2726,6 +2883,57 @@
                 "widgets"
             ],
             "time": "2018-03-15T02:08:25+00:00"
+        },
+        {
+            "name": "silverstripers/markdown",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SilverStripers/markdownfield.git",
+                "reference": "a495dacabb38ab7ac336600610d885b1d0450d53"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SilverStripers/markdownfield/zipball/a495dacabb38ab7ac336600610d885b1d0450d53",
+                "reference": "a495dacabb38ab7ac336600610d885b1d0450d53",
+                "shasum": ""
+            },
+            "require": {
+                "cebe/markdown": "1.1.2",
+                "silverstripe/framework": "^4"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "expose": [
+                    "client/dist"
+                ],
+                "installer-name": "markdown"
+            },
+            "autoload": {
+                "psr-4": {
+                    "SilverStripers\\markdown\\db\\": "src/db",
+                    "SilverStripers\\markdown\\extensions\\": "src/extensions",
+                    "SilverStripers\\markdown\\forms\\": "src/forms",
+                    "SilverStripers\\markdown\\shortcodes\\": "src/shortcodes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nivanka Fonseka",
+                    "email": "nivanka@silverstripers.com"
+                }
+            ],
+            "description": "Markdown DB field and form field for SilverStripe",
+            "keywords": [
+                "markdown",
+                "module",
+                "silverstripe"
+            ],
+            "time": "2017-12-22T15:04:52+00:00"
         },
         {
             "name": "suilven/blog-ss4-bootstrap-theme",
@@ -3897,6 +4105,51 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "dnadesign/silverstripe-populate",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dnadesign/silverstripe-populate.git",
+                "reference": "cff798dff20e2f048fde3d4327a3a515f54608db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dnadesign/silverstripe-populate/zipball/cff798dff20e2f048fde3d4327a3a515f54608db",
+                "reference": "cff798dff20e2f048fde3d4327a3a515f54608db",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "^4@stable",
+                "silverstripe/versioned": "^1@dev"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "silverstripe-vendormodule",
+            "autoload": {
+                "psr-4": {
+                    "DNADesign\\Populate\\": "code/",
+                    "DNADesign\\Populate\\Tests\\": "tests/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Will Rossiter",
+                    "email": "will.rossiter@dna.co.nz"
+                }
+            ],
+            "description": "Populate your database through YAML files",
+            "keywords": [
+                "silverstripe",
+                "yaml"
+            ],
+            "time": "2017-12-17T21:51:48+00:00"
+        },
         {
             "name": "doctrine/instantiator",
             "version": "1.1.0",
@@ -5259,7 +5512,10 @@
         "alek13/slack": 20,
         "weboftalent/silverstripe-shortcode-gist": 20,
         "silverstripe/comments": 20,
-        "suilven/silverstripe-configurator": 20
+        "silverstripers/markdown": 20,
+        "silverstripe/auditor": 20,
+        "suilven/silverstripe-configurator": 20,
+        "dnadesign/silverstripe-populate": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
