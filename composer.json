@@ -36,7 +36,8 @@
         "axllent/simplehtmldom": "^1.5",
         "silverstripe/auditor": "dev-master",
         "suilven/audit-chat-notifications": "dev-master",
-        "suilven/bettercomments": "dev-master"
+        "suilven/bettercomments": "dev-master",
+        "foolz/sphinxql-query-builder": "^1.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7",
