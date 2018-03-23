@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "64befa55b89e153bfb006e47556b7ec9",
+    "content-hash": "6f69557523fc02b3ef370a94332fc46b",
     "packages": [
         {
             "name": "alek13/slack",
@@ -2936,6 +2936,111 @@
             "time": "2017-12-22T15:04:52+00:00"
         },
         {
+            "name": "suilven/audit-chat-notifications",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gordonbanderson/audit-chat-notifications.git",
+                "reference": "aaefabd2e9d3858aba0d15a07545aebe36b1ae0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gordonbanderson/audit-chat-notifications/zipball/aaefabd2e9d3858aba0d15a07545aebe36b1ae0e",
+                "reference": "aaefabd2e9d3858aba0d15a07545aebe36b1ae0e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~5.6|~7.0",
+                "suilven/silverstripe-notifier": "~1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=5.4.3",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Suilven\\AuditChatNofications\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gordon Anderson",
+                    "email": "gordon.b.anderson@gmail.com",
+                    "homepage": "https://github.com/gordonbanderson",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Send Audit Logging notifications to chat channels, currently Slack",
+            "homepage": "https://github.com/suilven/audit-chat-notifications",
+            "keywords": [
+                "audit-chat-notifications",
+                "suilven"
+            ],
+            "time": "2018-03-23T14:42:58+00:00"
+        },
+        {
+            "name": "suilven/bettercomments",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gordonbanderson/better-comments.git",
+                "reference": "d12faece08e04ca03fc7071351be61448ac44d6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gordonbanderson/better-comments/zipball/d12faece08e04ca03fc7071351be61448ac44d6d",
+                "reference": "d12faece08e04ca03fc7071351be61448ac44d6d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~5.6|~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=5.4.3",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Suilven\\BetterComments\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gordon Anderson",
+                    "email": "gordon.b.anderson@gmail.com",
+                    "homepage": "https://github.com/gordonbanderson",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Improve the core SilverStripe comments module",
+            "homepage": "https://github.com/suilven/bettercomments",
+            "keywords": [
+                "commentsoverride",
+                "suilven"
+            ],
+            "time": "2018-03-23T15:25:46+00:00"
+        },
+        {
             "name": "suilven/blog-ss4-bootstrap-theme",
             "version": "1.0.1",
             "source": {
@@ -5514,6 +5619,8 @@
         "silverstripe/comments": 20,
         "silverstripers/markdown": 20,
         "silverstripe/auditor": 20,
+        "suilven/audit-chat-notifications": 20,
+        "suilven/bettercomments": 20,
         "suilven/silverstripe-configurator": 20,
         "dnadesign/silverstripe-populate": 20
     },
