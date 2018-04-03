@@ -38,7 +38,13 @@
         "suilven/audit-chat-notifications": "dev-master",
         "suilven/bettercomments": "dev-master",
         "foolz/sphinxql-query-builder": "^1.2",
-        "suilven/comments-ss4-bootstrap-theme": "dev-master"
+        "suilven/comments-ss4-bootstrap-theme": "dev-master",
+        "ripaclub/sphinxsearch": "^0.8.1",
+        "silverstripe/elemental-blocks": "1.0.x-dev",
+        "wampiedriessen/phpflickr": "dev-master",
+        "guzzle/http": "^3.9",
+        "rezzza/flickr": "^1.1",
+        "php-vcr/php-vcr": "^1.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7",
