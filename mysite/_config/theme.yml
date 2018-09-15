@@ -3,12 +3,13 @@ Name: mytheme
 ---
 SilverStripe\View\SSViewer:
   themes:
+    - '$public'
+    - 'forms-ss4-bootstrap-theme'
     - 'default-ss4-bootstrap-theme'
     - 'blog-ss4-bootstrap-theme'
     - 'homepage-ss4-bootstrap-theme'
     - 'comments-ss4-bootstrap-theme'
-
-    # Fallback to module if required
+    - 'utils'
     - '$default'
 SilverStripe\i18n\i18n:
   default_locale: 'en_US'

@@ -1,0 +1,57 @@
+---
+Name: freetextindexes2
+After: freetextindexes
+---
+
+# Define indexes
+Suilven\FreeTextSearch\Indexes:
+  indexes:
+    - index:
+        name: blogposts
+        class: SilverStripe\Blog\Model\BlogPost
+        fields:
+          - Title
+          - MenuTitle
+          - Content
+          - ParentID
+          - Sort
+          - PublishDate
+          - AuthorNames
+          - Summary
+
+    - index:
+        name: comments
+        class: SilverStripe\Comments\Model\Comment
+        fields:
+          - Email
+          - Comment
+          - AuthorID
+          - ParentCommentID
+          - Name
+          - URL
+
+    - index:
+        name: flickr
+        class: Suilven\Flickr\Model\FlickrPhoto
+
+        # Free text searchable
+        fields:
+          - Title
+          - Description
+
+        # Facets or filterable
+        tokens:
+          - Aperture
+          - ShutterSpeed
+          - ISO
+
+        has_many_many:
+          - Suilven\Flickr\Model\FlickrSet
+
+        # Effectively another token filter, but by ID
+        has_one:
+          - Suilven\Flickr\Model\FlickrAuthor
+
+        # MVA
+        has_many:
+          - Suilven\Flickr\Model\FlickrTag

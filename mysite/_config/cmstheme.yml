@@ -1,0 +1,22 @@
+---
+Name: cmstheme
+---
+
+SilverStripe\Admin\LeftAndMain:
+  cms_background: '#0747A6'
+  cms_border_color: '#173778'
+  cms_color: '#fff'
+  cms_hover_background: '#093684'
+  cms_active_background: '#173778'
+  cms_active_color: '#fff'
+  cms_drawer_background: '#0e418e'
+
+SilverStripe\SiteConfig\SiteConfig:
+  cms_logo: 'cms_logo.jpg'
+
+  menu_groups:
+#    Categorisation:
+#      - Vendor-Project-Categories
+#      - Vendor-Project-Tags
+#      - Vendor-Project-Topics
+

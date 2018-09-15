@@ -1,0 +1,6 @@
+Broarm\CookieConsent\CookieConsent:
+  cookies:
+    Necessary:
+      local:
+        - CookieConsent
+        - ShowPopUp

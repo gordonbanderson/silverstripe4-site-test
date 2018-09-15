@@ -1,0 +1,9 @@
+---
+Name: flickr
+---
+
+Suilven\Flickr\Service\FlickrService:
+  consumer_key: fad7655b5504f4bce827a6cb24b894b9
+  consumer_secret: 0fae4ac0b0caf8bf
+  token: 72157689267156900-672550029469a9a1
+  token_secret: 0e1996ff6c12a059
