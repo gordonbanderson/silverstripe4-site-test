@@ -1,11 +1,7 @@
 <?php
+\SilverStripe\View\Requirements::set_force_js_to_bottom(true);
+\SilverStripe\i18n\i18n::set_locale('en_US');
 
-use SilverStripe\Security\PasswordValidator;
-use SilverStripe\Security\Member;
-
-// remove PasswordValidator for SilverStripe 5.0
-$validator = new PasswordValidator();
-
-$validator->minLength(8);
-$validator->checkHistoricalPasswords(6);
-Member::set_password_validator($validator);
+ini_set('upload_max_filesize', '10M');
+ini_set('post_max_size', '15M');
+ 
